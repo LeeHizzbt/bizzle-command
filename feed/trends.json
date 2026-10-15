@@ -1,0 +1,1290 @@
+{
+ "app": "Bizzle Command",
+ "version": "4.20",
+ "day": "2026-10-15",
+ "generatedAt": "2026-10-15T23:27:20.345Z",
+ "watch": [
+  "AI agents",
+  "SEO",
+  "open source AI"
+ ],
+ "raw": 136,
+ "log": [
+  "ok HN front page: 30",
+  "ok HN \"AI agents\": 20",
+  "ok HN \"SEO\": 20",
+  "ok HN \"open source AI\": 9",
+  "ok Google News \"AI agents\": 15",
+  "ok Google News \"SEO\": 15",
+  "ok Google News \"open source AI\": 15",
+  "ok dev.to: 12"
+ ],
+ "items": [
+  {
+   "title": "Muse Spark Open",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "source": "research.meta.ai",
+   "via": "Hacker News",
+   "published": "2026-10-15T17:47:39Z",
+   "points": 558,
+   "comments": 315,
+   "hn": "https://news.ycombinator.com/item?id=50107379",
+   "term": "HN front page"
+  },
+  {
+   "title": "Wayland desktop for Linux with skeuomorphic design",
+   "url": "https://github.com/fyzugx/DEsk",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:23:44Z",
+   "points": 466,
+   "comments": 184,
+   "hn": "https://news.ycombinator.com/item?id=50103338",
+   "term": "HN front page"
+  },
+  {
+   "title": "Neural networks are clean",
+   "url": "https://already-clean.goodfire.com/",
+   "source": "already-clean.goodfire.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:04:01Z",
+   "points": 451,
+   "comments": 167,
+   "hn": "https://news.ycombinator.com/item?id=50105647",
+   "term": "HN front page"
+  },
+  {
+   "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+   "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+   "source": "citizenlab.ca",
+   "via": "Hacker News",
+   "published": "2026-10-15T10:43:36Z",
+   "points": 357,
+   "comments": 522,
+   "hn": "https://news.ycombinator.com/item?id=50101813",
+   "term": "HN front page"
+  },
+  {
+   "title": "Wanted to download an ISO, ended up writing a kernel exploit",
+   "url": "https://blog.dfb.sh/blog/eap770-root-for-two-zeros/",
+   "source": "blog.dfb.sh",
+   "via": "Hacker News",
+   "published": "2026-10-13T12:30:08Z",
+   "points": 340,
+   "comments": 167,
+   "hn": "https://news.ycombinator.com/item?id=50070625",
+   "term": "HN front page"
+  },
+  {
+   "title": "I know why the mathematicians weep",
+   "url": "https://www.derekthompson.org/p/i-know-why-the-mathematicians-weep",
+   "source": "derekthompson.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:44:32Z",
+   "points": 328,
+   "comments": 531,
+   "hn": "https://news.ycombinator.com/item?id=50103630",
+   "term": "HN front page"
+  },
+  {
+   "title": "Steam Client is now faster than Epic's new vibe coded launcher",
+   "url": "https://respawnfirst.com/steam-client-is-now-faster-than-epics-new-vibe-coded-launcher/",
+   "source": "respawnfirst.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:03:19Z",
+   "points": 255,
+   "comments": 266,
+   "hn": "https://news.ycombinator.com/item?id=50105635",
+   "term": "HN front page"
+  },
+  {
+   "title": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+   "url": "https://libreboot.org/news/libreboot2610.html",
+   "source": "libreboot.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T12:52:16Z",
+   "points": 245,
+   "comments": 141,
+   "hn": "https://news.ycombinator.com/item?id=50102923",
+   "term": "HN front page"
+  },
+  {
+   "title": "Show HN: Unfenced – Land for sale that borders public land",
+   "url": "https://unfenced.land/",
+   "source": "unfenced.land",
+   "via": "Hacker News",
+   "published": "2026-10-15T11:38:57Z",
+   "points": 244,
+   "comments": 166,
+   "hn": "https://news.ycombinator.com/item?id=50102247",
+   "term": "HN front page"
+  },
+  {
+   "title": "Jev meets the Trolley Problem",
+   "url": "https://zachlandes.com/trolley-problem/",
+   "source": "zachlandes.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:24:52Z",
+   "points": 243,
+   "comments": 111,
+   "hn": "https://news.ycombinator.com/item?id=50106023",
+   "term": "HN front page"
+  },
+  {
+   "title": "Krea 3 – An image model built for editing at scale",
+   "url": "https://www.krea.ai/krea-3",
+   "source": "krea.ai",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:04:05Z",
+   "points": 227,
+   "comments": 76,
+   "hn": "https://news.ycombinator.com/item?id=50105648",
+   "term": "HN front page"
+  },
+  {
+   "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+   "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+   "source": "simonsfoundation.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T14:58:48Z",
+   "points": 217,
+   "comments": 176,
+   "hn": "https://news.ycombinator.com/item?id=50104654",
+   "term": "HN front page"
+  },
+  {
+   "title": "Celebrating 70 Years of Fortran",
+   "url": "https://fortran-lang.org/news/2026/09-15-Fortran-birthday/",
+   "source": "fortran-lang.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T15:03:17Z",
+   "points": 199,
+   "comments": 88,
+   "hn": "https://news.ycombinator.com/item?id=50104726",
+   "term": "HN front page"
+  },
+  {
+   "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+   "source": "thereallo.dev",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:21:38Z",
+   "points": 169,
+   "comments": 63,
+   "hn": "https://news.ycombinator.com/item?id=50108872",
+   "term": "HN front page"
+  },
+  {
+   "title": "What I Self-Host",
+   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+   "source": "viceconsole.fyi",
+   "via": "Hacker News",
+   "published": "2026-10-15T20:23:25Z",
+   "points": 167,
+   "comments": 88,
+   "hn": "https://news.ycombinator.com/item?id=50109715",
+   "term": "HN front page"
+  },
+  {
+   "title": "Delta’s Biscoff cookies were supposed to be temporary",
+   "url": "https://www.seriouseats.com/biscoff-history-12168161",
+   "source": "seriouseats.com",
+   "via": "Hacker News",
+   "published": "2026-10-13T23:00:46Z",
+   "points": 162,
+   "comments": 138,
+   "hn": "https://news.ycombinator.com/item?id=50080155",
+   "term": "HN front page"
+  },
+  {
+   "title": "C++26 Contracts: Introduction to Preconditions and Postconditions",
+   "url": "https://www.cppstories.com/2026/cpp26_contracts/",
+   "source": "cppstories.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:11:26Z",
+   "points": 123,
+   "comments": 110,
+   "hn": "https://news.ycombinator.com/item?id=50103164",
+   "term": "HN front page"
+  },
+  {
+   "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+   "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+   "source": "support.withings.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:55:49Z",
+   "points": 120,
+   "comments": 104,
+   "hn": "https://news.ycombinator.com/item?id=50109375",
+   "term": "HN front page"
+  },
+  {
+   "title": "E Ink Kaleido 4",
+   "url": "https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4",
+   "source": "eink.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T18:38:16Z",
+   "points": 108,
+   "comments": 66,
+   "hn": "https://news.ycombinator.com/item?id=50108229",
+   "term": "HN front page"
+  },
+  {
+   "title": "Show HN: Flipflop – Iroh-powered persistent tunnels for filesharing",
+   "url": "https://github.com/andunieee/flipflop",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T04:25:28Z",
+   "points": 104,
+   "comments": 59,
+   "hn": "https://news.ycombinator.com/item?id=50099136",
+   "term": "HN front page"
+  },
+  {
+   "title": "An Apology",
+   "url": "https://www.elevationlab.com/blogs/news/an-apology",
+   "source": "elevationlab.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T04:23:27Z",
+   "points": 94,
+   "comments": 111,
+   "hn": "https://news.ycombinator.com/item?id=50099121",
+   "term": "HN front page"
+  },
+  {
+   "title": "Why I Wrote PGP (1991, revised 1999)",
+   "url": "https://philzimmermann.com/EN/essays/WhyIWrotePGP.html",
+   "source": "philzimmermann.com",
+   "via": "Hacker News",
+   "published": "2026-10-14T09:17:06Z",
+   "points": 94,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=50084674",
+   "term": "HN front page"
+  },
+  {
+   "title": "Prompt injection in HTTP headers: what 217M web responses show",
+   "url": "https://www.signalscorps.com/blog/prompt-injection-in-http-headers/",
+   "source": "signalscorps.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T14:36:22Z",
+   "points": 81,
+   "comments": 16,
+   "hn": "https://news.ycombinator.com/item?id=50104310",
+   "term": "HN front page"
+  },
+  {
+   "title": "Using AI to reverse engineer hardware",
+   "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+   "source": "blogs.gnome.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T14:35:15Z",
+   "points": 79,
+   "comments": 95,
+   "hn": "https://news.ycombinator.com/item?id=50104299",
+   "term": "HN front page"
+  },
+  {
+   "title": "Show HN: Proa – A Rust web framework with fast SSR and multi-target rendering",
+   "url": "https://proa.so/",
+   "source": "proa.so",
+   "via": "Hacker News",
+   "published": "2026-10-15T15:52:08Z",
+   "points": 79,
+   "comments": 18,
+   "hn": "https://news.ycombinator.com/item?id=50105467",
+   "term": "HN front page"
+  },
+  {
+   "title": "The engineering that allows articulated buses to bend",
+   "url": "https://www.theautopian.com/you-wont-believe-the-incredible-engineering-that-allows-articulated-buses-to-bend/",
+   "source": "theautopian.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T01:02:05Z",
+   "points": 58,
+   "comments": 34,
+   "hn": "https://news.ycombinator.com/item?id=50097843",
+   "term": "HN front page"
+  },
+  {
+   "title": "Game of Life – But Multiplayer, Hypermedia and Python",
+   "url": "https://stario.dev/apps/life",
+   "source": "stario.dev",
+   "via": "Hacker News",
+   "published": "2026-10-14T10:13:39Z",
+   "points": 41,
+   "comments": 17,
+   "hn": "https://news.ycombinator.com/item?id=50085171",
+   "term": "HN front page"
+  },
+  {
+   "title": "Rediscovering the Romance of Travel Clocks",
+   "url": "https://www.acollectedman.com/blogs/journal/rediscovering-travel-clocks",
+   "source": "acollectedman.com",
+   "via": "Hacker News",
+   "published": "2026-10-12T20:35:43Z",
+   "points": 26,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=50062683",
+   "term": "HN front page"
+  },
+  {
+   "title": "The 8-mile hole in a Hawaii national park that no one can explain",
+   "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
+   "source": "sfgate.com",
+   "via": "Hacker News",
+   "published": "2026-10-14T05:08:09Z",
+   "points": 23,
+   "comments": 13,
+   "hn": "https://news.ycombinator.com/item?id=50082637",
+   "term": "HN front page"
+  },
+  {
+   "title": "Major ICQ security hole (1998)",
+   "url": "https://opennet.ru/base/maillist/169.txt.html",
+   "source": "opennet.ru",
+   "via": "Hacker News",
+   "published": "2026-10-13T10:21:17Z",
+   "points": 9,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=50069439",
+   "term": "HN front page"
+  },
+  {
+   "title": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+   "url": "https://github.com/awslabs/aidlc-workflows",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T07:20:39Z",
+   "points": 20,
+   "comments": 16,
+   "hn": "https://news.ycombinator.com/item?id=50100387",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: BlastLoop, a structure-first coding method for AI agents",
+   "url": "https://github.com/rlshaw-ml/BlastLoop",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:26:39Z",
+   "points": 11,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=50106062",
+   "term": "AI agents"
+  },
+  {
+   "title": "Capsem – a Rust hypervisor sandboxing AI agents in air-gapped Linux VMs",
+   "url": "https://capsem.org/",
+   "source": "capsem.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T00:58:26Z",
+   "points": 8,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=50097811",
+   "term": "AI agents"
+  },
+  {
+   "title": "VeerAI: An AI agent inside our hosting dashboard",
+   "url": "https://veerhost.com/introducing-veerai-ai-agent/",
+   "source": "veerhost.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T07:53:13Z",
+   "points": 6,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50100623",
+   "term": "AI agents"
+  },
+  {
+   "title": "Classify web pages before adding them to an AI agent's context",
+   "url": "https://sifty.dev/blog/web-pages",
+   "source": "sifty.dev",
+   "via": "Hacker News",
+   "published": "2026-10-15T20:04:13Z",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50109477",
+   "term": "AI agents"
+  },
+  {
+   "title": "How Researchers Made Contact with a Chinese AI Agent Fleet",
+   "url": "https://quickchat.ai/post/chinese-ai-agent-fleet",
+   "source": "quickchat.ai",
+   "via": "Hacker News",
+   "published": "2026-10-15T10:26:04Z",
+   "points": 3,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50101662",
+   "term": "AI agents"
+  },
+  {
+   "title": "List of email domains used by AI agents",
+   "url": "https://github.com/revdoku/agent-email-domains/",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:58:33Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50106621",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: Ghx – A caching proxy for GitHub CLI, built for AI agents",
+   "url": "https://brunoborges.github.io/ghx/",
+   "source": "brunoborges.github.io",
+   "via": "Hacker News",
+   "published": "2026-10-15T15:42:54Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50105322",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: CommonForge – Let clients' AI agents work in your codebase safely",
+   "url": "https://github.com/CommonForge-org/commonforge",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T15:11:09Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50104848",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: Netlumi – Cloud and AI agent security with auto-remediation(Live demo)",
+   "url": "https://app.netlumi.com",
+   "source": "app.netlumi.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T12:56:57Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50102981",
+   "term": "AI agents"
+  },
+  {
+   "title": "How much does an AI agent cost to run? Numbers from 4 builds",
+   "url": "https://madsalt.tech/blog/how-much-does-an-ai-agent-cost/",
+   "source": "madsalt.tech",
+   "via": "Hacker News",
+   "published": "2026-10-15T11:08:16Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50102016",
+   "term": "AI agents"
+  },
+  {
+   "title": "REA – I tested AI agent reverse engineering",
+   "url": "https://korben.info/en/rea-ai-agent-reverse-engineering-test.html",
+   "source": "korben.info",
+   "via": "Hacker News",
+   "published": "2026-10-15T08:27:13Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50100843",
+   "term": "AI agents"
+  },
+  {
+   "title": "Tool Policies: one policy engine for every tool your AI agents call",
+   "url": "https://www.stackone.com/blog/tool-policies-launch/",
+   "source": "stackone.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T17:38:23Z",
+   "points": 1,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=50107215",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: MoneySwitch – AI agents pay x402 APIs in USDC (self-hosted)",
+   "url": "https://github.com/dongsheng123132/moneyswitch",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T04:17:26Z",
+   "points": 1,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=50099082",
+   "term": "AI agents"
+  },
+  {
+   "title": "AI Maestro, one year in: running a company of AI agents and humans",
+   "url": "https://github.com/23blocks-OS/ai-maestro",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T21:14:04Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50110336",
+   "term": "AI agents"
+  },
+  {
+   "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+   "url": "https://arxiv.org/abs/2610.19159",
+   "source": "arxiv.org",
+   "via": "Hacker News",
+   "published": "2026-10-15T20:39:56Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50109888",
+   "term": "AI agents"
+  },
+  {
+   "title": "Taskriz – AI agents send people tiny native UIs, written in Smalltalk",
+   "url": "https://www.taskriz.com/developers/",
+   "source": "taskriz.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T20:26:36Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50109748",
+   "term": "AI agents"
+  },
+  {
+   "title": "Escaped AI Agents Polluted the Web with Self-Replicating Code",
+   "url": "https://www.gadgetreview.com/andrew-yang-claims-escaped-ai-agents-polluted-the-web-with-self-replicating-code",
+   "source": "gadgetreview.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:41:51Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50109192",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: ReliaMesh – Open-source reliability monitoring for AI agents",
+   "url": "https://github.com/PrefilerLabs/reliamesh",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:25:34Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50108933",
+   "term": "AI agents"
+  },
+  {
+   "title": "Cicada: Sub-ms Go Zero-Trust gateway and gVisor firewall for AI agents Apache 2",
+   "url": "https://github.com/affinity-ops/OS-Cicada",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:09:19Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50108713",
+   "term": "AI agents"
+  },
+  {
+   "title": "Show HN: Just gave Claude Code the website and ad budget to see what it would do",
+   "url": "https://snitch.alphaventure.com/gate.php",
+   "source": "snitch.alphaventure.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T18:00:51Z",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=50107586",
+   "term": "SEO"
+  },
+  {
+   "title": "An Israeli firm is sending zero-click spyware through online ads",
+   "url": "https://www.theverge.com/tech/1011956/discover-tech-zero-click-ads-spyware",
+   "source": "theverge.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T17:01:56Z",
+   "points": 229,
+   "comments": 9,
+   "hn": "https://news.ycombinator.com/item?id=50106676",
+   "term": "SEO"
+  },
+  {
+   "title": "Siri is so bad at everything",
+   "url": "https://www.reddit.com/r/apple/comments/1x6gz83/siri_is_so_bad_at_everything/",
+   "source": "reddit.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T14:47:39Z",
+   "points": 114,
+   "comments": 102,
+   "hn": "https://news.ycombinator.com/item?id=50104465",
+   "term": "SEO"
+  },
+  {
+   "title": "Ubuntu 26.10 (Stonking Stingray) released",
+   "url": "https://lists.ubuntu.com/archives/ubuntu-announce/2026-October/000330.html",
+   "source": "lists.ubuntu.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T11:59:09Z",
+   "points": 68,
+   "comments": 93,
+   "hn": "https://news.ycombinator.com/item?id=50102423",
+   "term": "SEO"
+  },
+  {
+   "title": "Market selloff, rising rates test AI data centre deal boom",
+   "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/",
+   "source": "reuters.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:17:40Z",
+   "points": 66,
+   "comments": 78,
+   "hn": "https://news.ycombinator.com/item?id=50105900",
+   "term": "SEO"
+  },
+  {
+   "title": "GridSnap – an open-source Divvy-style window snapper for macOS",
+   "url": "https://github.com/konieczkow/gridsnap",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:19:07Z",
+   "points": 47,
+   "comments": 26,
+   "hn": "https://news.ycombinator.com/item?id=50103263",
+   "term": "SEO"
+  },
+  {
+   "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
+   "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
+   "source": "boldagents.co",
+   "via": "Hacker News",
+   "published": "2026-10-15T22:11:24Z",
+   "points": 35,
+   "comments": 47,
+   "hn": "https://news.ycombinator.com/item?id=50111112",
+   "term": "SEO"
+  },
+  {
+   "title": "Show HN: Sygal – Convert PDFs, scans and web pages to Markdown, locally",
+   "url": "https://sygal.app",
+   "source": "sygal.app",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:26:16Z",
+   "points": 31,
+   "comments": 8,
+   "hn": "https://news.ycombinator.com/item?id=50106054",
+   "term": "SEO"
+  },
+  {
+   "title": "Show HN: My Terminal Themes Web App",
+   "url": "https://news.ycombinator.com/item?id=50098454",
+   "source": "news.ycombinator.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T02:33:42Z",
+   "points": 29,
+   "comments": 14,
+   "hn": "https://news.ycombinator.com/item?id=50098454",
+   "term": "SEO"
+  },
+  {
+   "title": "Asia chip stocks fall, AI funding worries",
+   "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+   "source": "cnbc.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T02:29:41Z",
+   "points": 15,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50098423",
+   "term": "SEO"
+  },
+  {
+   "title": "The first new sunscreen type in 25 years has arrived on US store shelves",
+   "url": "https://apnews.com/article/bemotrizinol-bemt-new-sunscreen-ingredient-fda-7892cc598c0b553b8c9c6715d7a36d6a",
+   "source": "apnews.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T00:54:36Z",
+   "points": 9,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50097784",
+   "term": "SEO"
+  },
+  {
+   "title": "Google let a fake Chrome app on the Play Store, and it got over 100k downloads",
+   "url": "https://www.androidauthority.com/fake-chrome-app-play-store-3723121/",
+   "source": "androidauthority.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T16:12:18Z",
+   "points": 8,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50105793",
+   "term": "SEO"
+  },
+  {
+   "title": "How to stop underselling yourself",
+   "url": "https://coached.com/essays/how-to-brag/",
+   "source": "coached.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T10:37:01Z",
+   "points": 5,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50101756",
+   "term": "SEO"
+  },
+  {
+   "title": "Bets on what we will see at tonight's Tesla Roadster event",
+   "url": "https://x.com/i/broadcasts/1yKAPwNggRaxb",
+   "source": "x.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T21:02:54Z",
+   "points": 4,
+   "comments": 5,
+   "hn": "https://news.ycombinator.com/item?id=50110195",
+   "term": "SEO"
+  },
+  {
+   "title": "Show HN: My AI induced mania in embedded computer graphics engineering [video]",
+   "url": "https://www.youtube.com/watch?v=Ig2gYmOTuug",
+   "source": "youtube.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T22:43:44Z",
+   "points": 4,
+   "comments": 2,
+   "hn": "https://news.ycombinator.com/item?id=50111421",
+   "term": "SEO"
+  },
+  {
+   "title": "Run: AI Now Open Source",
+   "url": "https://github.com/dsx-ai-factory/run-ai",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T11:01:56Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50101962",
+   "term": "open source AI"
+  },
+  {
+   "title": "OCP Summit 2026: Innovations in Scale-Up, Scale-Out, and Scale-Across Networks",
+   "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks/",
+   "source": "engineering.fb.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:48:01Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50103682",
+   "term": "open source AI"
+  },
+  {
+   "title": "We open source our CO₂ emissions – and so should you",
+   "url": "https://co2.berget.ai/",
+   "source": "co2.berget.ai",
+   "via": "Hacker News",
+   "published": "2026-10-15T13:06:30Z",
+   "points": 4,
+   "comments": 1,
+   "hn": "https://news.ycombinator.com/item?id=50103115",
+   "term": "open source AI"
+  },
+  {
+   "title": "Perplexity open-sources SPACE, the sandbox platform behind Computer",
+   "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+   "source": "perplexity.ai",
+   "via": "Hacker News",
+   "published": "2026-10-15T19:28:25Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50108980",
+   "term": "open source AI"
+  },
+  {
+   "title": "Show HN: Endo – A Higher-Order Harness",
+   "url": "https://github.com/longsurf-ai/endo",
+   "source": "github.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T21:32:10Z",
+   "points": 4,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50110614",
+   "term": "open source AI"
+  },
+  {
+   "title": "Show HN: Stylebot 4 – restyle any website, by hand or with your coding agent",
+   "url": "https://stylebot.dev/",
+   "source": "stylebot.dev",
+   "via": "Hacker News",
+   "published": "2026-10-15T15:38:27Z",
+   "points": 2,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50105251",
+   "term": "open source AI"
+  },
+  {
+   "title": "Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal",
+   "url": "https://gitlab.com/patchwork1-ai/turbolisp",
+   "source": "gitlab.com",
+   "via": "Hacker News",
+   "published": "2026-10-15T21:00:36Z",
+   "points": 1,
+   "comments": 0,
+   "hn": "https://news.ycombinator.com/item?id=50110159",
+   "term": "open source AI"
+  },
+  {
+   "title": "AI agents are coming to Rivian’s cars - TechCrunch",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWdFhHdnhMR0l2MFN1U2hTZWxoY3pZUDZjcmV0UWtLNVJMRzhIdWE5RnpyTUMxcHFiNTNtVkpuajB6S3NVYzl1QXFwcFpSTVp1QUt3RVRtSGJHalNzY3pxc0RpTG1TZC1ZYUtITFdJQVRHeC1YamIzNFRfSQ?oc=5",
+   "source": "TechCrunch",
+   "via": "Google News",
+   "published": "2026-10-15T15:02:36.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Mark Susser of ElevenLabs on Deploying AI Agents Successfully in Financial Services - Finovate",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFpIdmVLb0o4N0JIcHBRSlVoZDUtTUJZX0drTHBZRTFoOXI3cXJYVmp1V0VTTWgwQjNIZGNTNkZQOGppUDVJOVQ0Wm9nUXh4dDRyS1hubzdkSFdHUE04YTJfZzA5OGZNZDJxRGtaQ1JiaXlrM19LWVltRV8tYXA5d0JmQllsRnBFT3oyRVY5cmUzMlpSQUNRUVVtRDR2T1hDY2VDYndqYVE?oc=5",
+   "source": "Finovate",
+   "via": "Google News",
+   "published": "2026-10-15T22:42:13.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "‘You don’t want rogue agents’: Jamie Dimon bars outside AI agents like Meta’s Muse from JPMorgan accounts - Fortune",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94cE9GNVdLZHZWM01ydmVLc2lVQVh5Z3BoLURNRFdVREFZVWFJOEltLVR3YXkwclZ5MnBQYXMxTHJVOGE5STM1VlF5azhEd0ZGWUV6dEFLQ0dXTlMwVUNzdURjZDVXZHl4VEJjVm83T1pFb2RnbjZJSjhjaTk?oc=5",
+   "source": "Fortune",
+   "via": "Google News",
+   "published": "2026-10-15T18:10:00.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Treat AI Like a New Species, Harvard Scientist Says - Harvard Magazine",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUjMyb1NaYjI5QzBzaFFPT0NrTmE1VVBzZTFUeE9XSlBsWUtxOUg0Y1VHMnVuMkhSb0dlN1BTd3IwNWJ0bE40VmcwWFo3ZnpQM3pZdVFUb0VQMENhamJXM3FhZkZRNmVkYWlqWEpKRUNPcUVGUGdhb015UXhYZVZiQ0ZSSQ?oc=5",
+   "source": "Harvard Magazine",
+   "via": "Google News",
+   "published": "2026-10-15T19:56:56.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Evaluating AI agents: moving past the vibe check - blog.google",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVk9hOUpDUnlkNkllQlJFWlJjQ0NPa20xWjI2bFJKX0FwOFFtbl81RklrOEdDckUwRHZYck1aTHpVLWQzYlFON0FwTV8yWmhQbUxPNkZpLWh4UWVTR2lfYlNrcm5hNVpQNXdiVDRIUF85RE9UZ3ZtczRRODJoQ21Cd0VSMk4ydTVwVlE?oc=5",
+   "source": "blog.google",
+   "via": "Google News",
+   "published": "2026-10-15T14:19:51.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "New AI Spreadsheet Tool Lets You Branch, Edit and Undo and Fix Mistakes as It Goes - USC Viterbi School of Engineering",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY1lHc3NxSVFrNm9rVkhNaGtDU3pjVDh6V0cyUU1hb0NHbXhmUzQ2TlduUTQ0V2N3LWVLVnF0ZFJpSFhjVDJRTzZTUTNuaG5IaGpMdFoxWGs2Vlc0RjN6UW8zQmNUXzh1VVZibExLaFVjV2dCYWxlQ2hUTXhmX3U5bW1Ed0NSVjhiYi1xOFVQMldBWDQ4ckZBYkwxRmNUUlZRLXk5bTBrVmttSF8yTjZNUTBUT0ZtNS03aVlsNWlnQmlDc1E?oc=5",
+   "source": "USC Viterbi School of Engineering",
+   "via": "Google News",
+   "published": "2026-10-15T18:01:27.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "How AI Agents Boost Fleet Safety & Efficiency by 30% - FreightWaves",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ21DQnoyVTVTUEZQZ0poN1VmSHNEWTFYYV84ems2M1A2LTQ4WDNocjJFVDROeHRsbGFaTnphQWt3ZXhNRm03dDZKMUQzbzFxQzNPZUU4WGVvaFloYUtXMFFLbFY2OHN3Sk9RaEltRG13aFlxelZTSmpZMXRmM0JidnNaRGU0M25YZmpv?oc=5",
+   "source": "FreightWaves",
+   "via": "Google News",
+   "published": "2026-10-15T20:16:46.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "What happens when your employees’ AI agents start coming to work? (Spoiler: It’s bad) - Fast Company",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4cWJNRWdfWDRuSGY0RHRYbkZIWU1lN2MtV245aXFLcmZIblV1ZGtsWi1MQXIwd2NNZE9ZTjQzWlExaHJ0RkZRTmtKYVVoU2QxTXBwU2JJWExrVTlsVDVPTDhEbEpSNjRBZzhaS29uY1VyNUp0SVE?oc=5",
+   "source": "Fast Company",
+   "via": "Google News",
+   "published": "2026-10-15T18:47:02.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "U.S. Bancorp Says AI Agents Aren’t Moving Consumer Deposits Yet - PYMNTS.com",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT09nN2h3dnk2Q0NmR2JCNnI0RUNJaXg0SHJZOTIyV2hKOGtWbzVOSFBiSHRUQXNhaTN5NWtlX0FoWFJwYXFpWHRDRDktbEVlcVhnLS1vanhyLUZPRFBaYnpob2RLOGQzeUtxeDE4cUFRV0Z3MVRHYmtJbTNVRGZqN0EwRUdybXEyUnVScGNaS2VwQkJNaC1OWGhZM2JNMmdYbVlCa0dnSW9BQVY4a2k2SThiOGpySEZsWXl4SA?oc=5",
+   "source": "PYMNTS.com",
+   "via": "Google News",
+   "published": "2026-10-15T19:39:51.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Secure your AI estate: 5 things CIOs must know about AI agents - CIO",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQX3l1blN5b0ZqSnhpeXBhYmpLWFBVaDhLVFJKY1RnNHJpeHFlaWVxeVpnZEkxbmRMZXhTZjBndFhQb215VzQyamdPaE4wb0xVdlY1TGgyZjBxM1RaaHFWWDlpZUNRVzJZcGpIU1ZSMGV5QlEybVRJNkYyZE9meUJZNW9ENV9ITWRsbnc3cE9iSWotWk5OMXNWQnlITDg5NnBsamc5UA?oc=5",
+   "source": "CIO",
+   "via": "Google News",
+   "published": "2026-10-15T15:12:04.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Tech Bytes: ServiceNow looks to boost AI agent control - CIO Dive",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaEdOSndGTVhlMWtVVmNONVNJTTdOX2t3ajdCeWtGbF9uSllUT2tISThLV2ZWZ19VdHNKX3FRNHplaWZLVVpJRDRZODlCcWpHX3pXQTVpSzk5bW5WenNFRVpzVnJXanRnbTltTHVFZlJiazRBU2hGRW1aYmw1Wm1XbWVwUzM1TzNI?oc=5",
+   "source": "CIO Dive",
+   "via": "Google News",
+   "published": "2026-10-15T20:49:04.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Why some banks are exploring 'bring your own AI agent' - American Banker",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ3RXMXU3cW9BLW9EcDV0bzlPa19LUzNYTGhrZGJJc09aYzZUMUJDU0tJRnp1dGd0eDhzMkVIdmNqZzgwYjU5aXZGZzc5VlpJQ1dxY3pnSkViaTNMZ05YR3hiLTcxZ0Z3dm01ZElYQmdWTnlPMktua0tvSGJ6SUd4cUQ2WlBZVmdHUkNMMERTRFdzSVJGTkgxX09lSWFqZw?oc=5",
+   "source": "American Banker",
+   "via": "Google News",
+   "published": "2026-10-15T21:12:00.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "JPMorgan, Schwab Block Unauthorized AI Agents. Why That Matters to Customer Cash. - Barron's",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcF9ublE2bVhNNEtQMnlfMnNfVFRSZDViaHJDaW9SbHl2enhCemc0eEphRXptX2FlSkRWSHhaWFJGemRCenVZRV80d3owT1RXeUJRLWtWZE1qamV1NWNGYkxjWWk5UXBfQ0pWUWZEVUdSX2lrZjl6UHBBbXBJTjZ3c2czdjNWOE9fSnhKZ2c2M2lQRlcwcHdSN2ZjN2hlR3NkVUNReEkzMXpFN3FqcVhDTWNhX1NEaVdTNHhaazNnYWlqVXdfOHNZ?oc=5",
+   "source": "Barron's",
+   "via": "Google News",
+   "published": "2026-10-15T20:09:00.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "AI Agent Reportedly Deletes an Entire Season of Reality TV Show - Gizmodo",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY1UtalExZXdQbHRacFp2NmZfbTk4REN1eXV5U0ZNRGpxVk41VHoxaWRhdnNMcHRXRTM0QWFocExZYlBkVTQ2bktOX0pzTXF5dEoxa1d5X0k5N042aENlaEVIdGc0Q0J0S3NGeEUtNmxYang2R0NuYW1HWG1SMXA3RzYyQ1gxMERsem1BWEhVbGh3UFFvR0l1bnJ3?oc=5",
+   "source": "Gizmodo",
+   "via": "Google News",
+   "published": "2026-10-15T20:55:27.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "Deploy multimodal AI agents with Nemotron 3.5 Super VL - Nscale",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZnFhQlJBWWh1QzVOYVRQYVE5OWxvaHBYVHExWURjc0RPdDctbDVzOWlnaEpwUUhTbGI3VVBRemhpREVvdFNSUmdPZ3pIR0VpMV9GMTBxbUc1eDV2VXFzTy1jRzROVzJhNjBMZU01QTZrdTFWeGxXTWJzOWtqbGF1YjN3?oc=5",
+   "source": "Nscale",
+   "via": "Google News",
+   "published": "2026-10-15T16:12:04.000Z",
+   "term": "AI agents"
+  },
+  {
+   "title": "On-Page SEO: The Definitive Guide + FREE Template (2026) - Backlinko",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tQS1Qbm9kblFwd1JQc1dJYncySVducmhnaHhCMFNMaG54aFNfR0xYU0xPN0N6eXJuVlo3bWVqWEgtUTd3d2Q3LQ?oc=5",
+   "source": "Backlinko",
+   "via": "Google News",
+   "published": "2026-10-15T15:09:55.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Gargle Combines Traditional SEO With AI Search Visibility for Dentists - Dentistry Today",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUHpSWGo5Z2Q3R21JVHEtbDVvX1J1em8xR0ZOQnd6TWlxcTdwVXVrN2Y5Rndka2I5ZTlmRzZPWVo3VUhCUmlwdThLbGs1REhrYWdMTy05MXhkZC1FbW41eC1PZ29PbXRFeWZ1WTdDVzJDOFB2NmFTaGdoOEszWFg3Wm5meEFUY1lZNks4bDZrT2hsYWpXRkR6NVl3U0RacUlubGc5Tw?oc=5",
+   "source": "Dentistry Today",
+   "via": "Google News",
+   "published": "2026-10-15T14:42:17.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Third Wave Digital Introduces Scribe, an AI-Powered Content and SEO Assistant Built into Mobi CMS - The Des Moines Register",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNQzV2VWh3Nl9FbWlGSzJXNEZ1WDVQNHBHdUgwYlo0YTQ0YXdDNTJ1TF9qQmM2NWZPWnlZN3VIeWRTMTI1RlFSdHhpYWZNRmMyWGhsX08wWUM4b2drUUV2ZXhobkpqTXFGd0V6NjVqTXVSRVAxRjdjeG5XcFFaM0Vhd0FCTkpYMVlON0tqVmozSk1Hc2JhVE9kRFNpSHY2NFlsbG0tT2lkTm1VOHR0c1Y0MUhLNHV0VmpvSjZYQlJ3aVdYdW1HcmtZdWcwN3Zmc2plaWR2NVNPckRNSE80OHBudC1USUFnWEc3TTZ2bzFlbw?oc=5",
+   "source": "The Des Moines Register",
+   "via": "Google News",
+   "published": "2026-10-15T19:11:20.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Best AI SEO Agency for Brand Mentions in ChatGPT (2026): Nicely Network Recognised by Better Business Advice - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSFJVVjc3QmlCODJZUGtPdkp1M2tDSmVGbU9CcnQwVUMzdWlZLWo5dlJYQXdYbUhzeWdoYUprVUhKT3BINDJsZDYxM0h5MWpFRUZEQ2lTZGd5REI0TjBEX3ZBczJXM0U2VlktZjNIY3BJVnQ0X2NNc1dmWUdGa1l2RWVFOTJOY3V0Z3VLWjNEN0tpQQ?oc=5",
+   "source": "Yahoo Finance",
+   "via": "Google News",
+   "published": "2026-10-15T16:00:00.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "49% of marketers plan to deprioritize SEO, Typeface survey finds - PPC Land",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQenhTMkNhcjlIOEhZM21uR01XSHVFblFqemk0ZWdQa2hRUlBTNFFERDJzcWFuSTVoaGtuSHlhdFBVbGhFRkY2VVBmNWFzUXYwSWRZcWUyOGlzRjVrLXBPbmpTalNaN05Uclk1WXRUdUtmNHlhREdDODdMZ3ltT3ZGeUh3djRhaXM?oc=5",
+   "source": "PPC Land",
+   "via": "Google News",
+   "published": "2026-10-15T20:20:04.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Google Search Console Data Is Running Days Behind (Oct 2026) - ALM Corp",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5UWXJBSkozb3EyeW50eGZtWWVYV1hKV2tlUTVXUVduVmE3NHNaaEtKWkVjclg0U3k4SkZOdDdpZG9nTzA2WVVURXNCaEtHRlBVODlwWldFaWo4SWdPdFJLRnFDTTR4MFZjb0NmR2xCN2FSZXo4LWU0R1BGeVE?oc=5",
+   "source": "ALM Corp",
+   "via": "Google News",
+   "published": "2026-10-15T16:00:24.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Coywolf Pack EmDash SEO Plugin Makes Sites Absurdly Fast - Search Engine Journal",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNGZ2V1lub0hmY2ZTeFZmZkxadTVxQmNHYWIydklvM3VWSEpWdTRucWlEcVFiWk1TX25ibzhzT1NYMGxldUxrNHQzQTlPaVczUlMxcmlJQ3RpcFI5X1I5VWs2UmtodUczTEpwRkVOc21PektXYlB6bVo2aURIZ0w0RGdSVlFHbjR2YnhKTERVdU9Scm1GbHBvWTJFaGVSNjBVMnc?oc=5",
+   "source": "Search Engine Journal",
+   "via": "Google News",
+   "published": "2026-10-15T10:32:28.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Shin Jin-seo Clinches Second Lanker Cup Title - 조선일보",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUotM1ZZX2ZPbjRYeWV2TUZ1UVlTNGlhd0xuQjJRTE5EdEJrM3JuUmM5MkpJNXdQWjk5XzJkR1NWNFQ3UGx2NDBwODI4eG1ldmUzYjE4cjR6SE5rZGxBVUFPRHlfZGdoVnRMeTdUdWQxaUNsWU9raFFzYVJQbWU2MlphQUJBdw?oc=5",
+   "source": "조선일보",
+   "via": "Google News",
+   "published": "2026-10-15T19:09:46.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "MarketRank Names Ryze AI’s Autonomous AI SEO Autopilot the Best AI SEO Tool in Switzerland for 2026 - Carroll County Mirror-Democrat",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPamdVbHVJRkFYeTh4T2k0cnJGeGVpU1VVeTVSclhOWnhqSHNZTkZIQWtjNTJvMjhDUFRkVEFlVTlnWmxLeG01blhoZi1tU0t1Y3dETFFmNUMtcFhZek9uWmI3MGQzT2szenhYVEF6OThrVEpOamhoek5fcUkyV1p3Zk15Nmp1bng1YTJPMVMxM1N6dllTZE1oR0RidHgyNEdKcldmWGVkYl9VdXFOLUhkdFRzeW1jRGc?oc=5",
+   "source": "Carroll County Mirror-Democrat",
+   "via": "Google News",
+   "published": "2026-10-15T07:40:02.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "How to Choose the Best Michigan SEO Company in 2026 - nerdbot",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUUNrbFdzN0g3bEtnelM1NE8yTm1JUFFWRk1KRWdSQ2xoY1dHVGQzV1ktMUNkUGNrUnNTNmt4TjhQdVNtY0lySzlpY1JpR2EyeUdJZHFUazVpTWFXQ01iZzE2eklDeDdwWjB5NDF6enQ1WGk3QkdDTGhZck9HNWdrWmhFdENLbVV0VUFn?oc=5",
+   "source": "nerdbot",
+   "via": "Google News",
+   "published": "2026-10-15T17:39:37.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "How to get to the bottom — and then the top — of AI search patterns - Business Observer",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZlRZbDU4MG96blpZaTdvMUZBTVZOenZsWGRzMy1BRTRQZUNFMzA5OVlGSDR2SVB2dUJNb3BGX0Y0ckhMQ09uWjE3Sm5zSWhuYzRUOHZsaExHU25wRElUVWNoZGtSMnB5MkFCNXdtSENaeTYyM2ZYUHAwSUhHeFdFLUVzTm8?oc=5",
+   "source": "Business Observer",
+   "via": "Google News",
+   "published": "2026-10-15T09:00:00.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "LLMs Ledger Launches Free llms.txt Validator as Website Owners Prepare for AI Search - markets.businessinsider.com",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQmlac2lPUFp4T3NyZlFNdkVuMy1HMWFGSFZDNzE4U3hoTmp0MmIxdGhqSnJkcnJiSkRYWE0teUNLS2tpTnpBVF9RbTJ4cl8zVHNhX1V4OEJmZ24xZFdQa1VsNjVmaVZINDl6TWRsVFpOemNLc0VzNEhyU3ZqVHhFczJQVGpKVTBCd01pYjNlbEhselFwbk05T2lVanQ5RG9IeU14aTNSN21mU1NCemlUOXJjLWdfUGlPUk42R1MwSUlJV0VzLW03bkl1YUZZaGxvOUV1cHRIejZmc0k?oc=5",
+   "source": "markets.businessinsider.com",
+   "via": "Google News",
+   "published": "2026-10-15T19:00:50.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Lucid Leverage Expands Private Label SEO Reseller Services to Meet Growing Agency Demand - The Des Moines Register",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdVJlRVBpUXNwOGRjTEZuUkxvcHVUUndsUXd3VEVxS3VvQnBoaVlFWko4WGNwcmRuOVZSLWJScUx3Q3VTVDVJWVR1R0xxbUFvN19qdTB5M01WanE3YmpQaHpDUXl0ZGk3aGhNSTh6M2I0WUUtN2ZSaFlaRkpQTnNncXh5dmw0VTZvcG42SG9YZmhaYXNyaFRvLW9vUTRJYTd4QnZrc1RmU3ltZTgtekxkeWN4V2xRX2RxcWRkQlg3TXR2aVpaN2VWRjRhMlhPU0lXN3ZvMWhPX3pFcnNJbFd4M2dLa1o?oc=5",
+   "source": "The Des Moines Register",
+   "via": "Google News",
+   "published": "2026-10-15T16:16:43.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Seo Dong-ju Opens Up About Guilt in Her Third Year of IVF: “I Lived a Messy Life; I Hate Myself” - 스포츠조선",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR1hOT2lmZzBtbnVDX3F0dnBfUHNwbVpJOWxEa1dJZlQ4Y3dmTE5HZy1NaDZPWTE2QzE4TEIyamFZZXkzS1VGVGdXWDl6U1JIMWFXMlp3bHpqQWRJQ2s5Ql80ZkZpU2RIS1ptVWFWN1U4czk2YlRWRkRzbm5jNzVmQlhCSQ?oc=5",
+   "source": "스포츠조선",
+   "via": "Google News",
+   "published": "2026-10-15T12:01:12.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Do Just One Thing for October 15, 2026 - Do Just One Thing - UExpress",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBWbmxwVVNBUXN6MXlaR0h3cHRYbmxtSXc5V0xxQ3FYZjhUNllkVDFwTW1ZMThSZ2RZQVZSTHFmcDVfQ2M3Umo1U0dNbEg5a3lyWXY2Tk5OSUtjeDFlaVdLcGM5ODV2U3gtMmc?oc=5",
+   "source": "UExpress",
+   "via": "Google News",
+   "published": "2026-10-15T06:18:49.000Z",
+   "term": "SEO"
+  },
+  {
+   "title": "Introducing Muse Spark Open, The Most Capable US Open‑Weight Model to Date - Meta AI",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBxQTR0N0dqcHl2SFlORVRDWlZ2MFg3c1l3czJ5ZF9pQVJMd1FFcTBzTjdfQ00ydURKSVpESEloR2hhVzNJTkIyNU9XalpybnFmdWlJYjhHV0k?oc=5",
+   "source": "Meta AI",
+   "via": "Google News",
+   "published": "2026-10-15T16:56:06.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Meta releases open AI model while keeping its best tech closed - The Seattle Times",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0JWNG1aX19RWHd1ZWlueXZObk5fSlBkSmJubGFnbDNSUEtmZDRjU1htRHF0STVpazRJbDB4c2RacFRjX2NGUS0tUlNLZW5xOFpLaWJwVlY5NktYbHRjd3NwcTFvdjBUYXYzdV9wbmNQU2xRdXVuU1BtLWdZdnE0VFZIbUlhOThJN0FCQW5tZHZ2aG4wWGJyRmZSTFFCUDk3QUhv?oc=5",
+   "source": "The Seattle Times",
+   "via": "Google News",
+   "published": "2026-10-15T19:18:07.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "OpenSSL: Open-Source Security and the Explosion of AI Bugs - Cyber Magazine",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZl9Ndk5PQjMxU3FMZnRqYXFvWmRONUdDUTJNWG8zNjhiWW1KaFllWlZWZUF6OE9QbEYzMllTM0hMNkEtS0ZvSmlGOVJkVzJUZVRFZHREdmI3ZEFNc1BtZGkyN2pjbF96VThBbUtqc2NESlcwLVRqVDFzNlVFN3ZNNVFxMEZJZVdKaDVhNl8wSWxKZw?oc=5",
+   "source": "Cyber Magazine",
+   "via": "Google News",
+   "published": "2026-10-15T14:53:18.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "PhotoCraft is an open-source, AI-built clone of Photoshop - OMG! Ubuntu",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81MUk1dEFrQi02aGdXWUNONnlyTVZIeklDTUk4cWVRSExheV9mdVg3QXQxNThDd0htNEl0dTgzMXF0RXo5dzFoZGpDc1BqMjN3YjZFdTJqMmc4ZXQzZFpWMlpZOUtUN2hqUzNUMzhWd21yODB0XzNv0gF8QVVfeXFMTmpaVmZmZmx4LW04c1BwdllBcFhWTHdDWnFLdUdTanpkdnJscXhvTUI4bHltaWRUYzdrckhPVHhjUjQ4ZmlGWFZXQ2dsc3hoRnZfYkc5bWV1b2ZidUZSV1M1dDhZRk9KZTJkU1FaRmMxQlNXNGZCVEhsOUU2NQ?oc=5",
+   "source": "OMG! Ubuntu",
+   "via": "Google News",
+   "published": "2026-10-15T21:59:55.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Startup nFox to open-source its ‘sandbox’ for open AI models - SiliconANGLE",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmhleE1tYmI2aXNELTNPRHJ0Y3QzZTRqWG9pMVZudUkxc3psVlU4TzlZbk9hM0JFWmg0T1A5czdwbkozWU8zYkVMbVhTZC1HMGFtY3AwZWQxX3JZQWoxUjU2bzNTdDlJVG43MmZ3WUhuLVktM1lfd3FkdWJvT0NlLUhDRHhmNzc5SXhxNXFweUdfNWs1X0hwUDBLaw?oc=5",
+   "source": "SiliconANGLE",
+   "via": "Google News",
+   "published": "2026-10-15T15:54:00.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions - KDnuggets",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRVFWZUhTN3dQUlZ2QklDWEpidVFsVl8zd2ttMkNkWDZUT3J5eVhpbFdyRlVNSXRxNVJKd2JDU3I2Y2RNTWcxX1dfS2tLTGhnRUdCeVVENXg4RGluMjNiU293ajk5VmpCZVF6OGpxbzUyZnB5czlpRjh3aXgxR0lGWkQzR3hNMWJFRElXMQ?oc=5",
+   "source": "KDnuggets",
+   "via": "Google News",
+   "published": "2026-10-15T12:10:34.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Nvidia debuts three new open AI models - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVW9sWFJ6TXBCVE1GNXVKV0g4MEt0WU1WUjh4WHkxMmVrOHdIajlLMXFZZ2ZZWk1uUVlxclpfVHNFYV9QT3QzRHlsTGlZZGlsZEJ6SGJWNFZ3NTFYZ2M4YUV3dm9tQXRQOGl2M0pOVDRlN1UzMU9seV9IZ095S0pBNFA4VWVMa285RDdaN1h3dzNUWnk3NXNxUUE3OXp6Sk0?oc=5",
+   "source": "Yahoo Finance",
+   "via": "Google News",
+   "published": "2026-10-15T15:00:00.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "‘Doing What It Takes’ in AI. OpenAI, Meta & TSMC. ARD #185 - AI: Reset to Zero",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ERUl3dDl4clNBYy1zMFpoeG01X0hqdWZQNExHRU0zc044T1NOOG9UTkhTQ242U1VhWlZpcFBjNUpBUXQzLUZ5WDcweFh1bU5KNlVlaXNsc1lzbEpua1lycmdLbm5xelQ2QlJkUmRhMk1fQ0pweEhUUA?oc=5",
+   "source": "AI: Reset to Zero",
+   "via": "Google News",
+   "published": "2026-10-15T22:03:40.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Perplexity to open source tool used to contain AI agents - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTTc2Z1VXNHFreWxNV3hZU0F5LUZVazVoSXlPQmtoRmhqYkc4elM3NERGVzhEdXRqSS1URy1sNl8tQnAzRmk3Ni1Bb3lTN0F6ZnI5SFpOUVNvQ3dzVmlNVHh1Rk5FQzhkYlZoczh4VEVFd3VoSnVKdzlDcEJuNzJxcjhiajRKNm5tR0tlSlRlcGc1VXNhanRMSlRSbmo5QTE1aTJORGpfa19UUnhCUVR1eWpYSQ?oc=5",
+   "source": "Investing.com",
+   "via": "Google News",
+   "published": "2026-10-15T17:33:38.000Z",
+   "term": "open source AI",
+   "points": 0,
+   "comments": 0
+  },
+  {
+   "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs - Axios",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBPMHkzbG9EYWhwX241Y1R3ZmJmbExHdXAyQnRZOEUzM1dfaXBiMmZGYjNQM2IzT2NGUW1PM1hMSkhTZmpNN3VfNlR2eEUxSXZnUnNpQjZRd0NxQjJjSnBqZHhWbW9wb1NJTG1LbU5fa0Rod215cVhjanEyYw?oc=5",
+   "source": "Axios",
+   "via": "Google News",
+   "published": "2026-10-15T17:01:44.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Announcing Mindbeam's Collaboration with NVIDIA: Bringing Greater Speed and Efficiency to Open Source AI - PR Newswire",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSXlwck9vdGFSeFNOVXBSU1FOaWJpMjNhWGFBZVctamcxRWJweWdzUmhsTGxIbFlNdGJzWDRIZTJlZUh1TmZvZ3RxU0lSRmt3LTBWR0lyYmZQNjk4d2hjOHJzTTBVMkNkbFhMaklyS0ZKME84cWpkX3k5eEI0MUNqUDFVZTdvNFJGLWUzNHVPaTBaUFpIMkpGMDR6Ml8zYndiRzBsR1V3UG9TRzdCUF9qSExOYnBVR2ozOVgtd25hVXhuclpkNlRPQUZSM1FmYW55MDVKNEt3N2M4M1JMY0JpbEtmdnFMazRSQ2Fwem9RVQ?oc=5",
+   "source": "PR Newswire",
+   "via": "Google News",
+   "published": "2026-10-15T15:00:00.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Perplexity to Open-Source Software Used to Fight Rogue AI Agent Activity - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOWtrX0ZIcmtEcUlyZDl1aHRBczNSVU5RcjFlQW1QaEpfaVIxUlk1VmJ3aGdKeDlTZUNUUVI3bUU0NERVYkVzX0psVVJpNm9xeEZ0d0dqWHJmZzQ0ZV83QTZYYkRDbHhSaXBKRUdid1hkNmVKaElKTmFXX1RZZkR5YnpTbkJhM2h6TmZjcEl1ZEVqMVNyMG9lQ0FYeUhtTWcwMUpvdEJCaDBiQXVWem81UVB3MEZveEg5emRDRkp6d2ttUUU?oc=5",
+   "source": "marketscreener.com",
+   "via": "Google News",
+   "published": "2026-10-15T17:37:23.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Meta Built A Huge Open-Weight AI Model For Macs, But You'll Need 1TB Of RAM To Run It - Engadget",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSFRsVmloZWVEREpaOUstOFdTclQ4Z1hvSFVyTnlGVWY4UUFjUkM5ZjB2T0lEWDdmcGNvUmhQZFpaaDBOVm9LX0U3clFZMm01TVg4ams2aGRNZHpmLXpUYkNsUzNMVEdiR2tJOFNvVG04Rk1ZdHFLSGg3d3VvNTFTWnBkTGdfTnpnYmJsUDlpeDZFSWw2cFFfLUlQaWpFQ3ROM0RrNFhrX09oNlZQM0tPY1ctdVBKYkNI?oc=5",
+   "source": "Engadget",
+   "via": "Google News",
+   "published": "2026-10-15T17:02:48.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "Nvidia Run Is Now Open Source: What’s Free and Paid - TechRepublic",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWG1Jc3RINWxEMHNKdEhZRzc5elJpMjJLa3FvSDMxYTJYX2dWcHpJeDBmbWRNTEdTYVZuZEQyQ2ZYbUtSYmhwQXd6Mm9veWNsX2VzdWhZYVZZZ2hNbDk0dnhpc0syeXNBN2x5eU5tR1RYY0QtdG5xSmlFSlBmT3ZuVHR2NA?oc=5",
+   "source": "TechRepublic",
+   "via": "Google News",
+   "published": "2026-10-15T18:05:32.000Z",
+   "term": "open source AI"
+  },
+  {
+   "title": "I built a lie detector for AI coding agents. Then I read the rules.",
+   "url": "https://dev.to/dannwaneri/i-built-a-lie-detector-for-ai-coding-agents-then-i-read-the-rules-1hhb",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T08:48:27Z",
+   "points": 25,
+   "comments": 11,
+   "term": "dev.to"
+  },
+  {
+   "title": "How I Built an Action Game with Godot During a Global Teen Hackathon with Prizes",
+   "url": "https://dev.to/thetylern/how-i-built-an-action-game-with-godot-during-a-global-teen-hackathon-with-prizes-4db0",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-14T23:24:25Z",
+   "points": 12,
+   "comments": 6,
+   "term": "dev.to"
+  },
+  {
+   "title": "I Built an Open-Weight AI That Prices Etsy Shops, On Your Laptop",
+   "url": "https://dev.to/sarvar_04/i-built-an-open-weight-ai-that-prices-etsy-shops-on-your-laptop-24dk",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T12:03:16Z",
+   "points": 19,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "RevCheck, compare the cars you want before you buy your next daily driver",
+   "url": "https://dev.to/alexgeorgiev17/revcheck-paste-two-used-car-listings-get-a-second-opinion-before-you-drive-across-town-1e7e",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T12:33:30Z",
+   "points": 11,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "DuckLess: serverless DuckDB on Google Cloud, in your own project",
+   "url": "https://dev.to/gde/duckless-serverless-duckdb-on-google-cloud-in-your-own-project-4o5a",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T16:38:38Z",
+   "points": 8,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "ScopeGuard: an open-weight model that tells freelancers when \"quick one\" means \"paid one\"",
+   "url": "https://dev.to/highcenburg/scopeguard-an-open-weight-model-that-tells-freelancers-when-quick-one-means-paid-one-3o7c",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T09:11:27Z",
+   "points": 1,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "AI Engineering Is Easy. So How Do We Change How We Work?",
+   "url": "https://dev.to/ujja/ai-engineering-is-easy-so-how-do-we-change-how-we-work-3lik",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T00:24:59Z",
+   "points": 9,
+   "comments": 11,
+   "term": "dev.to"
+  },
+  {
+   "title": "Scope-Creep Guard: A Local Gemma AI That Tells Clients \"That's Out of Scope\" (So You Don't Have To) published: true",
+   "url": "https://dev.to/vidisha_gupta_/scope-creep-guard-a-local-gemma-ai-that-tells-clients-thats-out-of-scope-so-you-dont-have-18n2",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T18:10:40Z",
+   "points": 15,
+   "comments": 1,
+   "term": "dev.to"
+  },
+  {
+   "title": "Architecting Autonomous Lakehouse Agents: Governed Iceberg Analytics with Gemini 2.5 Flash and BigLake",
+   "url": "https://dev.to/gde/architecting-autonomous-lakehouse-agents-governed-iceberg-analytics-with-gemini-25-flash-and-4ai9",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T15:57:55Z",
+   "points": 1,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "State of AI Instruction Quality: A Third of Repos Shout",
+   "url": "https://dev.to/reporails/state-of-ai-instruction-quality-a-third-of-repos-shout-39ei",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T10:37:49Z",
+   "points": 4,
+   "comments": 0,
+   "term": "dev.to"
+  },
+  {
+   "title": "AgentOne 1.1.2: Compaction, Chat History, and Searchable Settings",
+   "url": "https://dev.to/agent-one/agentone-112-compaction-chat-history-and-searchable-settings-376h",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T03:36:40Z",
+   "points": 3,
+   "comments": 1,
+   "term": "dev.to"
+  },
+  {
+   "title": "How Much Does It Cost to Build an Enterprise AI Agent in 2026?",
+   "url": "https://dev.to/quokkalabs/how-much-does-it-cost-to-build-an-enterprise-ai-agent-in-2026-3c5o",
+   "source": "dev.to",
+   "via": "dev.to API",
+   "published": "2026-10-15T05:44:50Z",
+   "points": 6,
+   "comments": 0,
+   "term": "dev.to"
+  }
+ ]
+}
