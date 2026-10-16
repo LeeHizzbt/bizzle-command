@@ -33,7 +33,10 @@ Everything (notes, trends, queue, chats) lives in your browser's IndexedDB. Use 
 Optional free GitHub Actions scan: see [DAILY_SCAN.md](DAILY_SCAN.md).
 
 ## Android
-Capacitor 7 wrapper (`com.nunyabizz.command`). The signed APK is attached to this repo's Releases.
+Capacitor 7 wrapper (`com.nunyabizz.command`, 4.20.0, minSdk 23).
+**Direct download:** https://github.com/LeeHizzbt/bizzle-command/releases/download/command-v4.20/BizzleCommand-v4.20.apk
+SHA-256 `16e052f14a1b85311012c0c2b26e4eb3a38840a3c51fde5b2418dcd4ad8ab669` (signed v1+v2, checked with `apksigner verify`).
+To build it yourself: `npm ci && npx cap sync android && cd android && ./gradlew assembleRelease`, with your own keystore in `keystore/keystore.properties` (git-ignored).
 
 ## Limits (honest)
 - Public CORS readers (r.jina.ai, allorigins, codetabs) are free and sometimes flaky. Google News may be skipped on a given scan; HN and dev.to don't need them.
@@ -42,6 +45,9 @@ Capacitor 7 wrapper (`com.nunyabizz.command`). The signed APK is attached to thi
 - X posting uses the x.com share intent (no API).
 - Google Search Console sign-in needs your own OAuth client ID and works on the web build only. CSV import works everywhere.
 - The usage meter estimates usage on this device; it isn't the provider's official quota.
+
+## Tests
+See [TEST_REPORT.md](TEST_REPORT.md) (`python tests/e2e.py`).
 
 ## Credits
 - [JSZip](https://stuk.github.io/jszip/) v3.10.2, used under the MIT license (`docs/vendor/jszip-LICENSE.md`).

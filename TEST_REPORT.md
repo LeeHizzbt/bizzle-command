@@ -45,3 +45,9 @@ No key → clear message + Settings button · Gemini 429 → "rate limited" · a
 - Google OAuth for Search Console needs the owner's own OAuth client ID and a Google sign-in, so it was not run. CSV/zip import is the tested path.
 - Groq and OpenRouter were tested with mocked responses only, because no keys were in the env.
 - Logs from this run are in `test-results/` (git-ignored). Screenshots are in `test-shots/`.
+
+## Android APK
+- `npx cap sync android`, then `./gradlew assembleRelease` (JDK 21). The APK contains build `2026-10-15.2207`.
+- `apksigner verify` passes: v1 + v2, one signer (CN=Nunya Bizz).
+- SHA-256 `16e052f14a1b85311012c0c2b26e4eb3a38840a3c51fde5b2418dcd4ad8ab669`. Copies downloaded back from both releases match.
+- The emulator smoke test was skipped. AVD `kief30` was already running another app (`com.nunyabizz.xray`) for a different task, so it was left alone.
