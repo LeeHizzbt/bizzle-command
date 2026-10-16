@@ -167,7 +167,7 @@
   BC.header = function (title, sub, right) {
     return '<div class="head"><button class="back" data-back aria-label="Back">← <span>Back</span></button><button class="ib menu-btn" data-menu aria-label="Menu">☰</button>' +
       '<div class="grow ttl"><h2>' + title + '</h2><div class="sub">' + (sub || '') + '</div></div>' + (right || '') +
-      '<button class="btn sm ai-btn" data-open-ai title="Advanced AI Settings">⚙️<span class="hide-sm"> AI Settings</span></button><span class="v420 hide-xs">v4.20</span></div>';
+      '<button class="btn sm ai-btn" data-open-ai title="Advanced AI Settings">⚙️<span class="hide-sm"> AI Settings</span></button><span class="v420 hv">v4.20</span></div>';
   };
   function renderShell() {
     $('#app').innerHTML = '<div class="shell" id="shell"><aside class="side" id="side"><div class="brandbar"><span class="logo">🛰️</span><div><div class="brand">Bizzle Command</div><span class="v420">v4.20</span></div></div>' +

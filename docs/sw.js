@@ -1,6 +1,6 @@
 /* Bizzle Command v4.20 service worker. CACHE changes on every build (scripts/bump-version.sh). */
-var CACHE = 'bizzle-command-2026-10-15.1';
-var V = '?v=2026-10-15.1';
+var CACHE = 'bizzle-command-2026-10-15.2207';
+var V = '?v=2026-10-15.2207';
 var SHELL = ['./', 'index.html', 'css/app.css' + V, 'js/config.js' + V, 'js/ai.js' + V, 'js/core.js' + V, 'js/radar.js' + V, 'js/vault.js' + V, 'js/seo.js' + V, 'js/studio.js' + V, 'js/work.js' + V,
   'vendor/jszip.min.js?v=3.10.2', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', function (e) { e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(SHELL); })); });

@@ -131,7 +131,7 @@ async def must_haves(page, phase, vp, view):
     ok = await page.evaluate("""() => {
       const m = document.querySelector('#main'); const vis = el => !!el && el.getBoundingClientRect().width > 0;
       const back = m.querySelector('.head .back'); const ai = m.querySelector('.head [data-open-ai]'); const fab = document.querySelector('#bizzy-fab');
-      const v = [...document.querySelectorAll('.v420')].filter(vis); const neon = v.length && getComputedStyle(v[0]).color;
+      const inView = el => { const r = el.getBoundingClientRect(); return r.width > 0 && r.left >= 0 && r.right <= innerWidth && getComputedStyle(el).display !== 'none'; }; const v = [...m.querySelectorAll('.head .v420')].filter(inView); const neon = v.length && getComputedStyle(v[0]).color;
       const backBg = back && getComputedStyle(back).backgroundImage;
       return { back: vis(back), backThemed: !!backBg && backBg.includes('gradient'), ai: vis(ai), fab: vis(fab), v420: v.length > 0 && neon === 'rgb(57, 255, 20)', hscroll: document.documentElement.scrollWidth > innerWidth + 1, mainOverflow: m.scrollWidth > m.clientWidth + 2 };
     }""")
@@ -442,7 +442,9 @@ async def flow_real(browser, vp=(1440, 900)):
         await page.fill('#ch-ta', 'Read the error text in this screenshot.'); await page.click('#ch-send')
         await page.wait_for_function("document.querySelectorAll('.cmsg.a').length >= 2 && !document.querySelector('#ch-msgs').innerText.includes('thinking…')", timeout=90000)
         txt = await page.locator('.cmsg.a').last.inner_text()
-        rec(P, vps, 'real screenshot-to-vision', '429' in txt or 'rate limit' in txt.lower(), txt[:120])
+        vis_ok = await page.locator('.cmsg.a').last.locator('.reply').count() == 1
+        vis_err = await page.locator('.cmsg.a').last.locator('.errbox').get_attribute('data-kind') if not vis_ok and await page.locator('.cmsg.a').last.locator('.errbox').count() else None
+        rec(P, vps, 'real screenshot-to-vision' + ('' if vis_ok else ' (clear error: %s)' % vis_err), vis_ok or vis_err in ('ratelimit', 'down'), txt[:120])
         await page.screenshot(path=os.path.join(SHOTS, 'real_1440_chat.png'))
         await go(page, 'radar'); await page.click('#rd-tabs [data-t="today"]'); await page.wait_for_selector('.tcard')
         await page.locator('.tcard >> nth=0 >> [data-draft]').click(); await page.click('#dr-go'); await page.wait_for_selector('#dr-out .reply, #dr-out .errbox', timeout=90000)

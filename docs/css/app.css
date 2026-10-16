@@ -170,3 +170,6 @@ details summary{cursor:pointer}
 .body{padding-bottom:96px}
 @media (max-width:1180px){.chatwrap .composer{padding-right:80px}}
 @media (max-width:767px){.chatwrap .composer{padding-right:68px}}
+/* v4.20 badge stays visible in every view header, compact on small phones */
+.head .hv{flex:none;white-space:nowrap}
+@media (max-width:400px){.head .hv{font-size:11px;letter-spacing:0}}

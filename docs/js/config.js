@@ -1,1 +1,1 @@
-window.BC_BUILD = '2026-10-15.1';
+window.BC_BUILD = '2026-10-15.2207';
