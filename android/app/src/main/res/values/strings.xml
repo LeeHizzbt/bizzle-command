@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Bizzle Command</string>
+    <string name="title_activity_main">Bizzle Command</string>
+    <string name="package_name">com.nunyabizz.command</string>
+    <string name="custom_url_scheme">com.nunyabizz.command</string>
+</resources>

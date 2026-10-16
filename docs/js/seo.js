@@ -28,8 +28,9 @@
     function col(re, d) { for (var i = 0; i < h.length; i++) if (re.test(h[i])) return i; return d; }
     var ci = col(/click/, 1), ii = col(/impr/, 2), ti = col(/ctr/, 3), pi = col(/pos/, 4);
     if (h.length < 5 && !/click|impr/.test(h.join(' '))) return null;
-    var first = h[0];
-    var kind = /page|url|seite|página/.test(first) || /pages/i.test(filename || '') ? 'pages' : 'queries';
+    var first = h[0], fn = String(filename || '').toLowerCase().split('/').pop();
+    var kind = /page|url|seite|página/.test(first) ? 'pages' : /quer|search|keyword|anfrage|consulta/.test(first) ? 'queries' : /page/.test(fn) ? 'pages' : /quer/.test(fn) ? 'queries' : null;
+    if (!kind) return null;
     var out = rows.slice(1).map(function (r) { var imp = num(r[ii]), cl = num(r[ci]); var ctr = r[ti] != null && r[ti] !== '' ? num(r[ti]) : (imp ? cl / imp : 0); if (ctr > 1) ctr = ctr / 100; return { key: r[0], clicks: cl, impressions: imp, ctr: ctr, position: num(r[pi]) }; })
       .filter(function (r) { return r.key && r.impressions >= 0; });
     if (!out.length) return null;

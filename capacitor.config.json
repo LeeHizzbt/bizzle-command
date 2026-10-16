@@ -1,0 +1,7 @@
+{
+  "appId": "com.nunyabizz.command",
+  "appName": "Bizzle Command",
+  "webDir": "docs",
+  "android": { "allowMixedContent": false },
+  "server": { "androidScheme": "https" }
+}

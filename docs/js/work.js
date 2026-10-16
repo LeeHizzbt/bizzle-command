@@ -28,12 +28,19 @@
     var d = new Date(), ymd = d.toISOString().slice(0, 10), slug = BC.slug(it.title), path = (c.dir ? c.dir.replace(/^\/|\/$/g, '') + '/' : '') + ymd + '-' + slug + '.md';
     var api = 'https://api.github.com/repos/' + c.repo + '/contents/' + path.split('/').map(encodeURIComponent).join('/');
     var H = { Authorization: 'Bearer ' + c.token, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
-    return fetch(api + '?ref=' + encodeURIComponent(c.branch || 'main'), { headers: H }).then(function (r) { return r.status === 200 ? r.json().then(function (j) { return j.sha; }) : null; })
-      .then(function (sha) {
-        var body = { message: 'Publish "' + it.title + '" from Bizzle Command v4.20', content: b64utf8(jekyll(it)), branch: c.branch || 'main' }; if (sha) body.sha = sha;
-        return fetch(api, { method: 'PUT', headers: Object.assign({ 'Content-Type': 'application/json' }, H), body: JSON.stringify(body) });
-      }, function () { throw Object.assign(new Error('Could not reach GitHub.'), { kind: 'network' }); })
-      .then(function (r) { return r.json().then(function (j) { if (!r.ok) throw ghErr(r.status, j); return { path: path, url: j.content && j.content.html_url, commit: j.commit && j.commit.html_url, live: c.site ? c.site.replace(/\/$/, '') + '/' + ymd.replace(/-/g, '/') + '/' + slug + '.html' : '' }; }); });
+    var content = b64utf8(jekyll(it));
+    function put(sha) {
+      var body = { message: 'Publish "' + it.title + '" from Bizzle Command v4.20', content: content, branch: c.branch || 'main' }; if (sha) body.sha = sha;
+      function once() { return fetch(api, { method: 'PUT', headers: Object.assign({ 'Content-Type': 'application/json' }, H), body: JSON.stringify(body) }).then(function (r) { return r.json().then(function (j) { return { r: r, j: j }; }); }); }
+      // one retry after a short pause if the connection drops (flaky mobile networks / HTTP2 resets)
+      return once().catch(function () { return new Promise(function (ok) { setTimeout(ok, 1500); }).then(once); });
+    }
+    // new files need no sha; if the file already exists (422), fetch its sha and update it
+    return put(null).then(function (x) {
+      if (x.r.status === 422 && !x.r.ok) return fetch(api + '?ref=' + encodeURIComponent(c.branch || 'main'), { headers: H }).then(function (r) { return r.json(); }).then(function (j) { return j.sha ? put(j.sha) : x; });
+      return x;
+    }, function () { throw Object.assign(new Error('Could not reach GitHub.'), { kind: 'network' }); })
+      .then(function (x) { var j = x.j; if (!x.r.ok) throw ghErr(x.r.status, j); return { path: path, url: j.content && j.content.html_url, commit: j.commit && j.commit.html_url, live: c.site ? c.site.replace(/\/$/, '') + '/' + ymd.replace(/-/g, '/') + '/' + slug + '.html' : '' }; });
   }
   BC.publishGitHub = publishGitHub;
   function mdToHtml(md) { return BC.md(md).replace(/<br><br>/g, '\n<p></p>\n'); }
@@ -188,6 +195,8 @@
       return AI.run({ effort: 'Pro', json: true, temperature: 0.4, maxTokens: 3000, system: GOAL_SYS, messages: hist }).then(function (r) {
         log = log.filter(function (x) { return !x.temp; });
         var j = AI.parseJSON(r.text);
+        if (Array.isArray(j)) j = j.filter(function (x) { return x && x.tool; })[0] || null;
+        if (j && !j.tool && (j.name || j.action)) { j.tool = j.name || j.action; j.args = j.args || j.arguments || j.input || {}; }
         if (!j || !j.tool) { bad++; add({ kind: 'warn', text: '⚠️ Step ' + steps + ': reply was not valid JSON.' }); if (bad >= 2) { add({ kind: 'stop', text: 'Stopped: the model could not follow the tool format.' }); return finish(); } hist.push({ role: 'assistant', text: r.text.slice(0, 2000) }, { role: 'user', text: 'Reply with ONE valid JSON object only.' }); return step(); }
         hist.push({ role: 'assistant', text: JSON.stringify(j) });
         if (j.tool === 'finish') { add({ kind: 'done', step: steps, thought: j.thought, text: (j.args && j.args.summary) || 'Done.', model: r.provider + ' · ' + r.model }); return finish(); }

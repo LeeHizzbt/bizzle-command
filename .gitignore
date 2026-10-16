@@ -28,3 +28,4 @@ __pycache__/
 test-results/
 *.webm
 *.log
+docs/icons/source-placeholder.png

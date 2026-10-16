@@ -76,7 +76,7 @@
     });
     return dbp;
   }
-  function tx(store, mode, fn) { return db().then(function (d) { return new Promise(function (res, rej) { var t = d.transaction(store, mode), s = t.objectStore(store), out = fn(s); t.oncomplete = function () { res(out && out.result !== undefined ? out.result : out); }; t.onerror = function () { rej(t.error); }; }); }); }
+  function tx(store, mode, fn) { return db().then(function (d) { return new Promise(function (res, rej) { var t = d.transaction(store, mode), s = t.objectStore(store), out = fn(s); t.oncomplete = function () { res(out instanceof IDBRequest ? out.result : out); }; t.onerror = function () { rej(t.error); }; }); }); }
   BC.DB = {
     put: function (store, obj) { return tx(store, 'readwrite', function (s) { s.put(obj); return obj; }); },
     get: function (store, id) { return tx(store, 'readonly', function (s) { return s.get(id); }); },
